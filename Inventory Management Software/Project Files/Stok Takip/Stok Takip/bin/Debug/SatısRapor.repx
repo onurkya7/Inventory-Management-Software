@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="18.1.4.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report1" Margins="51, 51, 100, 100" PageWidth="850" PageHeight="1100" Version="18.1" DataMember="Kategori" DataSource="#Ref-0">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="25">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRTable" Name="table1" SizeF="748,25" LocationFloat="0, 0" Borders="Left, Right, Bottom">
+          <Rows>
+            <Item1 Ref="5" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="6" ControlType="XRTableCell" Name="tableCell1" Weight="0.93837732416635844" Multiline="true" Text="tableCell1" TextAlignment="TopLeft" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="7" Expression="[Satis].[ad]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="8" UsePadding="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="9" ControlType="XRTableCell" Name="tableCell2" Weight="0.87680220805550257" Multiline="true" Text="tableCell2" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="10" Expression="[Satis].[adet]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="11" UsePadding="false" />
+                </Item2>
+                <Item3 Ref="12" ControlType="XRTableCell" Name="tableCell3" Weight="1.1848204677781391" Multiline="true" Text="tableCell3" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="13" Expression="[Satis].[telefon]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="14" UsePadding="false" />
+                </Item3>
+                <Item4 Ref="15" ControlType="XRTableCell" Name="tableCell4" Weight="0.98958343505859381" Multiline="true" Text="tableCell4" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="16" Expression="[Satis].[adres]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="17" UsePadding="false" />
+                </Item4>
+                <Item5 Ref="18" ControlType="XRTableCell" Name="tableCell5" Weight="1.3493403511421811" Multiline="true" Text="tableCell5" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="19" Expression="[Satis].[eposta]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="20" UsePadding="false" />
+                </Item5>
+                <Item6 Ref="21" ControlType="XRTableCell" Name="tableCell6" Weight="0.87689774898017814" Multiline="true" Text="tableCell6" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="22" Expression="[Satis].[urunadi]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="23" UsePadding="false" />
+                </Item6>
+                <Item7 Ref="24" ControlType="XRTableCell" Name="tableCell7" Weight="1.2363676175104303" Multiline="true" Text="tableCell7" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="25" Expression="[Satis].[kategori]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="26" UsePadding="false" />
+                </Item7>
+                <Item8 Ref="27" ControlType="XRTableCell" Name="tableCell8" Weight="0.85611381161954569" Multiline="true" Text="tableCell8" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="28" Expression="[Satis].[marka]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="29" UsePadding="false" />
+                </Item8>
+                <Item9 Ref="30" ControlType="XRTableCell" Name="tableCell9" Weight="1.046240827399443" Multiline="true" Text="tableCell9" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="31" Expression="[Satis].[model]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="32" UsePadding="false" />
+                </Item9>
+                <Item10 Ref="33" ControlType="XRTableCell" Name="tableCell10" Weight="0.64569295493433909" Multiline="true" Text="tableCell10" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="34" Expression="[Satis].[adet]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="35" UsePadding="false" />
+                </Item10>
+                <Item11 Ref="36" ControlType="XRTableCell" Name="tableCell11" Weight="1.0622626430037268" Multiline="true" Text="tableCell11" Padding="5,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="37" Expression="[Satis].[barkodno]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="38" UsePadding="false" />
+                </Item11>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="39" UseBorders="false" />
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="40" ControlType="BottomMarginBand" Name="BottomMargin">
+      <Controls>
+        <Item1 Ref="41" ControlType="XRPageInfo" Name="pageInfo1" TextFormatString="Page {0} / {1}" TextAlignment="MiddleRight" SizeF="68.32031,22.9999981" LocationFloat="676.1743, 22.916666" Font="Bahnschrift, 10pt, style=Italic" Padding="2,2,0,0,96">
+          <StylePriority Ref="42" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item3>
+    <Item4 Ref="43" ControlType="PageHeaderBand" Name="PageHeader" HeightF="117.708336">
+      <Controls>
+        <Item1 Ref="44" ControlType="XRTable" Name="table2" TextAlignment="MiddleCenter" SizeF="748,25" LocationFloat="0, 92.7083359" Font="Times New Roman, 9.75pt, style=Bold" Borders="All">
+          <Rows>
+            <Item1 Ref="45" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+              <Cells>
+                <Item1 Ref="46" ControlType="XRTableCell" Name="tableCell12" Weight="0.93835514693036415" Multiline="true" Text="Adı" Padding="2,2,0,0,100" />
+                <Item2 Ref="47" ControlType="XRTableCell" Name="tableCell13" Weight="0.87678126505022091" Multiline="true" Text="Soyadı" Padding="2,2,0,0,100" />
+                <Item3 Ref="48" ControlType="XRTableCell" Name="tableCell14" Weight="1.1847930681570418" Multiline="true" Text="Telefon" Padding="2,2,0,0,100" />
+                <Item4 Ref="49" ControlType="XRTableCell" Name="tableCell15" Weight="1.0000705198623732" Multiline="true" Text="Adres" Padding="2,2,0,0,100">
+                  <StylePriority Ref="50" UsePadding="false" />
+                </Item4>
+                <Item5 Ref="51" ControlType="XRTableCell" Name="tableCell16" Weight="1.338796938738416" Multiline="true" Text="Eposta" Padding="2,2,0,0,100">
+                  <StylePriority Ref="52" UsePadding="false" />
+                </Item5>
+                <Item6 Ref="53" ControlType="XRTableCell" Name="tableCell17" Weight="0.87687801830139667" Multiline="true" Text="Ürün Adı" Padding="2,2,0,0,100">
+                  <StylePriority Ref="54" UsePadding="false" />
+                </Item6>
+                <Item7 Ref="55" ControlType="XRTableCell" Name="tableCell18" Weight="1.2363378408740386" Multiline="true" Text="Kategori" Padding="2,2,0,0,100">
+                  <StylePriority Ref="56" UsePadding="false" />
+                </Item7>
+                <Item8 Ref="57" ControlType="XRTableCell" Name="tableCell19" Weight="0.85609265557020131" Multiline="true" Text="Marka" Padding="2,2,0,0,100">
+                  <StylePriority Ref="58" UsePadding="false" />
+                </Item8>
+                <Item9 Ref="59" ControlType="XRTableCell" Name="tableCell20" Weight="1.0462160098366335" Multiline="true" Text="Model" Padding="2,2,0,0,100">
+                  <StylePriority Ref="60" UsePadding="false" />
+                </Item9>
+                <Item10 Ref="61" ControlType="XRTableCell" Name="tableCell21" Weight="0.645678536679314" Multiline="true" Text="Adet" Padding="2,2,0,0,100">
+                  <StylePriority Ref="62" UsePadding="false" />
+                </Item10>
+                <Item11 Ref="63" ControlType="XRTableCell" Name="tableCell22" Weight="1.0622371070817902" Multiline="true" Text="Barkod No&#xD;&#xA;" Padding="2,2,0,0,100">
+                  <StylePriority Ref="64" UsePadding="false" />
+                </Item11>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="65" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="66" ControlType="XRLabel" Name="label1" Multiline="true" Text="SATIŞ BÖLÜMÜ" TextAlignment="TopCenter" SizeF="209.374939,30.7083435" LocationFloat="284.0944, 30.83334" Font="Bahnschrift Condensed, 22pt" Padding="2,2,0,0,96">
+          <StylePriority Ref="67" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+      </Controls>
+    </Item4>
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v18.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2U+PE5hbWU+c3FsRGF0YVNvdXJjZTE8L05hbWU+PENvbm5lY3Rpb24gTmFtZT0iU3Rva1Rha2lwIiBGcm9tQXBwQ29uZmlnPSJ0cnVlIiAvPjxRdWVyeSBUeXBlPSJTZWxlY3RRdWVyeSIgTmFtZT0iS2F0ZWdvcmkiPjxUYWJsZXM+PFRhYmxlIE5hbWU9IkthdGVnb3JpIiAvPjwvVGFibGVzPjxDb2x1bW5zPjxDb2x1bW4gVGFibGU9IkthdGVnb3JpIiBOYW1lPSJpZCIgLz48Q29sdW1uIFRhYmxlPSJLYXRlZ29yaSIgTmFtZT0ia2F0ZWdvcmkiIC8+PC9Db2x1bW5zPjwvUXVlcnk+PFF1ZXJ5IFR5cGU9IlNlbGVjdFF1ZXJ5IiBOYW1lPSJLdWxsYW7EsWPEsUJpbGdpIj48VGFibGVzPjxUYWJsZSBOYW1lPSJLdWxsYW7EsWPEsUJpbGdpIiAvPjwvVGFibGVzPjxDb2x1bW5zPjxDb2x1bW4gVGFibGU9Ikt1bGxhbsSxY8SxQmlsZ2kiIE5hbWU9ImlkIiAvPjxDb2x1bW4gVGFibGU9Ikt1bGxhbsSxY8SxQmlsZ2kiIE5hbWU9InNpZnJlIiAvPjxDb2x1bW4gVGFibGU9Ikt1bGxhbsSxY8SxQmlsZ2kiIE5hbWU9ImFkc295YWQiIC8+PENvbHVtbiBUYWJsZT0iS3VsbGFuxLFjxLFCaWxnaSIgTmFtZT0iZ8O2cmV2aSIgLz48L0NvbHVtbnM+PC9RdWVyeT48UXVlcnkgVHlwZT0iU2VsZWN0UXVlcnkiIE5hbWU9Ik1hcmthIj48VGFibGVzPjxUYWJsZSBOYW1lPSJNYXJrYSIgLz48L1RhYmxlcz48Q29sdW1ucz48Q29sdW1uIFRhYmxlPSJNYXJrYSIgTmFtZT0iaWQiIC8+PENvbHVtbiBUYWJsZT0iTWFya2EiIE5hbWU9Im1hcmthIiAvPjwvQ29sdW1ucz48L1F1ZXJ5PjxRdWVyeSBUeXBlPSJTZWxlY3RRdWVyeSIgTmFtZT0iTW9kZWwiPjxUYWJsZXM+PFRhYmxlIE5hbWU9Ik1vZGVsIiAvPjwvVGFibGVzPjxDb2x1bW5zPjxDb2x1bW4gVGFibGU9Ik1vZGVsIiBOYW1lPSJpZCIgLz48Q29sdW1uIFRhYmxlPSJNb2RlbCIgTmFtZT0iTW9kZWwiIC8+PC9Db2x1bW5zPjwvUXVlcnk+PFF1ZXJ5IFR5cGU9IlNlbGVjdFF1ZXJ5IiBOYW1lPSJNdXN0ZXJpIj48VGFibGVzPjxUYWJsZSBOYW1lPSJNdXN0ZXJpIiAvPjwvVGFibGVzPjxDb2x1bW5zPjxDb2x1bW4gVGFibGU9Ik11c3RlcmkiIE5hbWU9ImFkIiAvPjxDb2x1bW4gVGFibGU9Ik11c3RlcmkiIE5hbWU9InNveWFkIiAvPjxDb2x1bW4gVGFibGU9Ik11c3RlcmkiIE5hbWU9ImFkcmVzIiAvPjxDb2x1bW4gVGFibGU9Ik11c3RlcmkiIE5hbWU9InRlbGVmb24iIC8+PENvbHVtbiBUYWJsZT0iTXVzdGVyaSIgTmFtZT0iZXBvc3RhIiAvPjwvQ29sdW1ucz48L1F1ZXJ5PjxRdWVyeSBUeXBlPSJTZWxlY3RRdWVyeSIgTmFtZT0iU2F0aXMiPjxUYWJsZXM+PFRhYmxlIE5hbWU9IlNhdGlzIiAvPjwvVGFibGVzPjxDb2x1bW5zPjxDb2x1bW4gVGFibGU9IlNhdGlzIiBOYW1lPSJhZCIgLz48Q29sdW1uIFRhYmxlPSJTYXRpcyIgTmFtZT0ic295YWQiIC8+PENvbHVtbiBUYWJsZT0iU2F0aXMiIE5hbWU9ImFkcmVzIiAvPjxDb2x1bW4gVGFibGU9IlNhdGlzIiBOYW1lPSJ0ZWxlZm9uIiAvPjxDb2x1bW4gVGFibGU9IlNhdGlzIiBOYW1lPSJlcG9zdGEiIC8+PENvbHVtbiBUYWJsZT0iU2F0aXMiIE5hbWU9ImJhcmtvZG5vIiAvPjxDb2x1bW4gVGFibGU9IlNhdGlzIiBOYW1lPSJrYXRlZ29yaSIgLz48Q29sdW1uIFRhYmxlPSJTYXRpcyIgTmFtZT0ibWFya2EiIC8+PENvbHVtbiBUYWJsZT0iU2F0aXMiIE5hbWU9Im1vZGVsIiAvPjxDb2x1bW4gVGFibGU9IlNhdGlzIiBOYW1lPSJ1cnVuYWRpIiAvPjxDb2x1bW4gVGFibGU9IlNhdGlzIiBOYW1lPSJhZGV0IiAvPjwvQ29sdW1ucz48L1F1ZXJ5PjxRdWVyeSBUeXBlPSJTZWxlY3RRdWVyeSIgTmFtZT0iVXJ1biI+PFRhYmxlcz48VGFibGUgTmFtZT0iVXJ1biIgLz48L1RhYmxlcz48Q29sdW1ucz48Q29sdW1uIFRhYmxlPSJVcnVuIiBOYW1lPSJiYXJrb2RubyIgLz48Q29sdW1uIFRhYmxlPSJVcnVuIiBOYW1lPSJrYXRlZ29yaSIgLz48Q29sdW1uIFRhYmxlPSJVcnVuIiBOYW1lPSJtYXJrYSIgLz48Q29sdW1uIFRhYmxlPSJVcnVuIiBOYW1lPSJtb2RlbCIgLz48Q29sdW1uIFRhYmxlPSJVcnVuIiBOYW1lPSJ1cnVuYWRpIiAvPjxDb2x1bW4gVGFibGU9IlVydW4iIE5hbWU9InJhZm5vIiAvPjxDb2x1bW4gVGFibGU9IlVydW4iIE5hbWU9ImFkZXQiIC8+PENvbHVtbiBUYWJsZT0iVXJ1biIgTmFtZT0iZ3RhcmloaSIgLz48L0NvbHVtbnM+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJLYXRlZ29yaSI+PEZpZWxkIE5hbWU9ImlkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImthdGVnb3JpIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjxWaWV3IE5hbWU9Ikt1bGxhbsSxY8SxQmlsZ2kiPjxGaWVsZCBOYW1lPSJpZCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJzaWZyZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJhZHNveWFkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImfDtnJldmkiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iTWFya2EiPjxGaWVsZCBOYW1lPSJpZCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJtYXJrYSIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48VmlldyBOYW1lPSJNb2RlbCI+PEZpZWxkIE5hbWU9ImlkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Ik1vZGVsIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjxWaWV3IE5hbWU9Ik11c3RlcmkiPjxGaWVsZCBOYW1lPSJhZCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJzb3lhZCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJhZHJlcyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJ0ZWxlZm9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImVwb3N0YSIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48VmlldyBOYW1lPSJTYXRpcyI+PEZpZWxkIE5hbWU9ImFkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9InNveWFkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImFkcmVzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9InRlbGVmb24iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iZXBvc3RhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImJhcmtvZG5vIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImthdGVnb3JpIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1hcmthIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1vZGVsIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9InVydW5hZGkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iYWRldCIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48VmlldyBOYW1lPSJVcnVuIj48RmllbGQgTmFtZT0iYmFya29kbm8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0ia2F0ZWdvcmkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0ibWFya2EiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0ibW9kZWwiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0idXJ1bmFkaSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJyYWZubyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJhZGV0IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Imd0YXJpaGkiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>
