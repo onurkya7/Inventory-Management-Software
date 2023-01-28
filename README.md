@@ -8,7 +8,8 @@ You can use the program modernly with fonts by entering the file named fonts_net
 
 Login Page
 
-ID : 123000	
+ID : 123000
+
 PASSWORD: 1	
 
 ![1](https://user-images.githubusercontent.com/100594545/215272947-0d31e571-1d64-4711-9db8-eb614e65eeee.PNG)
