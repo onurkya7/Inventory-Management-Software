@@ -7,6 +7,7 @@ and the program will run smoothly.
 You can use the program modernly with fonts by entering the file named fonts_net_BLACKR_ and pressing the install icon.
 
 Login Page
+
 ID : 123000	
 PASSWORD: 1	
 
@@ -30,7 +31,7 @@ Income Expense Calculation
 Module Example
 
 ![5](https://user-images.githubusercontent.com/100594545/215272953-b963fa7c-8be7-4320-96b8-af98f5ffb4ec.PNG)
-![6](https://user-images.githubusercontent.com/100594545/215272955-c72b9397-72b6-42b1-a251-8c0e49c1e37a.PNG)
+
 
 
 
