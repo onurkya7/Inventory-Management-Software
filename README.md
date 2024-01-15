@@ -1,12 +1,16 @@
 # Inventory-Management-Software-C-Sharp
-There are many functions in the stock tracking application. It provides software with a clear interface and many modules that many businesses can use.
+- There are many functions in the stock tracking application. It provides software with a clear interface and many modules that many businesses can use.
 
-For the program to work properly, install the application called AccessDatabaseEngine, this will prevent the loss of database files,
+## Setup Environment
+
+1- For the program to work properly, install the application called **AccessDatabaseEngine**, this will prevent the loss of database files,
 and the program will run smoothly.
 
-You can use the program modernly with fonts by entering the file named fonts_net_BLACKR_ and pressing the install icon.
+2- To install the font located in the root directory, you need to enter the file named **fonts_net_BLACKR_** and click on the install icon.
 
-## Some examples from the interface
+
+## Application
+
 ### Login Page
 
 ID : 123000
@@ -33,6 +37,12 @@ PASSWORD: 1
 ### Module Example
 
 ![5](https://user-images.githubusercontent.com/100594545/215272953-b963fa7c-8be7-4320-96b8-af98f5ffb4ec.PNG)
+
+
+
+## License
+
+Our project is licensed under the [MIT License](LICENSE).
 
 
 
